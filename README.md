@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/icon.svg" alt="Gentle Theme" width="120" height="120">
+  <img src="assets/icon.png" alt="Gentle Theme" width="120" height="120">
   <br>
   Gentle Theme
   <br>
