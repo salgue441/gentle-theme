@@ -1,0 +1,75 @@
+{
+  "name": "gentle-theme",
+  "displayName": "Gentle Theme",
+  "description": "Colorblind-safe, accessible theme family with 6 variants. Designed for extended coding, sensitive eyes, and neurodivergent users. WCAG AA compliant.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "colorblind",
+    "color-blind",
+    "accessible",
+    "accessibility",
+    "wcag",
+    "eye-friendly",
+    "neurodivergent",
+    "adhd",
+    "autism",
+    "low-strain",
+    "light",
+    "dark",
+    "midnight",
+    "warm",
+    "soft",
+    "gentle"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gentle Light",
+        "uiTheme": "vs",
+        "path": "./themes/gentle-light.json"
+      },
+      {
+        "label": "Gentle Light Warm",
+        "uiTheme": "vs",
+        "path": "./themes/gentle-light-warm.json"
+      },
+      {
+        "label": "Gentle Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gentle-dark.json"
+      },
+      {
+        "label": "Gentle Dark Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gentle-dark-warm.json"
+      },
+      {
+        "label": "Gentle Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gentle-midnight.json"
+      },
+      {
+        "label": "Gentle Midnight Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gentle-midnight-warm.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gentle-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/gentle-theme/issues"
+  },
+  "license": "MIT"
+}

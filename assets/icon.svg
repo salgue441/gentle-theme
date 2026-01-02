@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A6DB0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D7377;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDFCFA;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#FDFCFA;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGradient)"/>
+
+  <!-- Inner glow -->
+  <circle cx="64" cy="64" r="55" fill="url(#innerGlow)"/>
+
+  <!-- Stylized "G" for Gentle - made of soft curves -->
+  <path
+    d="M 78 42
+       C 68 32, 48 32, 38 45
+       C 28 58, 28 78, 40 90
+       C 52 102, 72 102, 84 90
+       C 90 84, 92 76, 88 68
+       L 64 68
+       L 64 76
+       L 78 76
+       C 76 82, 72 86, 64 88
+       C 52 90, 42 82, 42 68
+       C 42 54, 52 46, 64 46
+       C 72 46, 78 50, 82 56
+       L 90 50
+       C 84 42, 76 38, 64 38
+       C 48 38, 34 50, 34 68
+       C 34 86, 48 98, 64 98
+       C 80 98, 94 86, 94 68
+       L 94 60
+       L 64 60
+       L 64 68"
+    fill="#FDFCFA"
+    fill-opacity="0.95"
+  />
+
+  <!-- Accessibility dot - representing focus on vision -->
+  <circle cx="88" cy="44" r="6" fill="#E8A854"/>
+</svg>
